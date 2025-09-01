@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f9f9f9;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+#scoreboard {
+  margin: 20px 0;
+  font-size: 1.4em;
+}
+
+input {
+  padding: 6px;
+  margin: 5px;
+}
+
+button {
+  padding: 6px 12px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+#message {
+  margin-top: 20px;
+  font-weight: bold;
+  color: darkred;
+}
+
+#usedPlayersList {
+  list-style: none;
+  padding: 0;
+}
