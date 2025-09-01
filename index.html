@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Football Darts 501</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>⚽ Football Darts 501</h1>
+
+  <div id="setup">
+    <label for="teamInput">Enter Team: </label>
+    <input type="text" id="teamInput" placeholder="e.g. Liverpool F.C.">
+    <button id="startBtn">Start Game</button>
+  </div>
+
+  <div id="game" style="display:none;">
+    <div id="scoreboard">
+      <div>Player 1: <span id="score1">501</span></div>
+      <div>Player 2: <span id="score2">501</span></div>
+    </div>
+
+    <h2>Current Turn: <span id="turn">Player 1</span></h2>
+
+    <label for="playerInput">Enter Player Name: </label>
+    <input type="text" id="playerInput" placeholder="e.g. Mohamed Salah">
+    <button id="throwBtn">Throw</button>
+    <button id="resetBtn">Reset Game</button>
+
+    <p id="message"></p>
+
+    <h3>Used Players:</h3>
+    <ul id="usedPlayersList"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
